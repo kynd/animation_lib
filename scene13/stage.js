@@ -59,7 +59,7 @@ Stage.prototype = {
 		this.drawNewString();
 		
 		if (this.bClick) {
-			graphics.fillCircle("#ff3300", this.system.points[this.clickTarget].x,
+			graphics.fillCircle("#0077ff", this.system.points[this.clickTarget].x,
 			this.system.points[this.clickTarget].y, 20, 0.5);
 		}
 	},
