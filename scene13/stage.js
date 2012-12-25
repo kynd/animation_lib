@@ -57,6 +57,7 @@ Stage.prototype = {
 		this.drawBg();
 		this.system.draw();
 		this.drawNewString();
+		
 		if (this.bClick) {
 			graphics.fillCircle("#0077ff", this.system.points[this.clickTarget].x,
 			this.system.points[this.clickTarget].y, 20, 0.5);
