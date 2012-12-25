@@ -398,7 +398,7 @@ spider.WebPoint.prototype = {
 		}
 	},
 	draw: function() {	
-		graphics.fillCircle("#ff0000", this.x, this.y, 3);
+		graphics.fillCircle("#0033ff", this.x, this.y, 3);
 	}
 }
 
